@@ -1,0 +1,445 @@
+.parent{
+    height: 100svh;
+    width: 100%;
+    background-color: green;
+}
+/* -------------------------child1----------------------------- */
+.child1{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right, #feb65c,#df42b9);
+    /* background: rgb(194,120,0);
+background: linear-gradient(90deg, rgba(194,120,0,1) 1%, rgba(207,119,71,1) 32%, rgba(225,0,205,1) 77%, rgba(218,0,158,1) 93%);
+     */
+}
+.s1{
+    height: 100%;
+    width:20%;
+    /* background-color: yellow; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: 10%;
+}
+#icon3{
+  font-size:30px;
+  color: white;
+}
+.s2{
+    height: 100%;
+    width:30%;
+    /* background-color:blue; */
+    float: left;
+    position: relative;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap:5px
+  }
+.e1{
+  color: white;
+  font-size:20px;
+
+}
+#icon4{
+  font-size:25px;
+  color: white;
+}
+.s3{
+    height: 100%;
+    width: 30%;
+    /* background-color:violet; */
+    float:right;
+    display: flex;
+    align-items: center;
+    justify-content: start
+}
+.s31{
+  height:35px;
+  width:160px;
+  font-size:10px;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  /* position: absolute;
+  top:65%;
+  left:15%; */
+}
+ /* -------------------------child2---------------------------------------- */
+
+ .child2{
+    height:100px;
+    width: 100%;
+    background-color:white;
+    
+ }
+ .p1{
+    height:100%;
+    width:30%;
+    /* background-color:yellow; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .p11{
+    font-size: 32px;
+    font-weight:900;
+ }
+ .p2{
+    height: 100%;
+    width:55%;
+    /* background-color: blueviolet; */
+    float:left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+ .p21{
+    font-size:18px;
+ }
+ .p21:hover{
+    background-color: orange;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+ .p3{
+    height: 100%;
+    width:15%;
+    float: right;
+ }
+/* ----------------------child3----------------------------------------- */
+.child3{
+    height: 500px;
+    width: 100%;
+    /* background-color: gray; */
+    background-image: url(./slide3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.k1{
+    height: 100%;
+    width: 10%;
+    /* background-color: aqua; */
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.k11{
+    height:60%;
+    width:3%;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #feb65c,#df42b9);
+}
+.k2{
+    height: 100%;
+    width: 90%;
+    /* background-color: antiquewhite; */
+    float: right;
+    position: relative;
+}
+.k21{
+  position: absolute;
+  top: 20%;
+  left:1%;
+  font-size: 32px;
+  color: white;
+}
+.k22{
+    position: absolute;
+    top:33%;
+    left:1%;
+    font-size: 40px;
+    color: white;
+  }
+  .k23{
+    position: absolute;
+    top:54%;
+    left:1%;
+    font-size:15px;
+    color: white;
+  }
+  .k24{
+    height:40px;
+    width:140px;
+    font-size:15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: absolute;
+    top:65%;
+    left:1%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #feb65c,#df42b9);
+  }
+
+  .k25{
+    height:35px;
+    width:160px;
+    font-size:10px;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: absolute;
+    top:65%;
+    left:15%;
+  }
+  /* ------------------------child4-------------------------------- */
+  .child4{
+    height:200px;
+    width: 100%;
+    background: rgb(194,120,0);
+    background: linear-gradient(90deg, rgba(194,120,0,1) 1%, rgba(207,119,71,1) 32%, rgba(225,0,205,1) 77%, rgba(218,0,158,1) 93%);     
+  }
+  .l1{
+    height: 100%;
+    width: 33%;
+    /* background-color: aqua; */
+    float: left; 
+  }
+  #icon1{
+    font-size:25px;
+    color: white;
+  }
+  .g1{
+    height:50px;
+    width:50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .g2{
+    font-size: 25px;
+    color: white;
+  }
+  .g3{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: -20px;
+  }
+  .l11{
+    height: 50%;
+    width: 100%;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+  }
+  .l12{
+    height: 50%;
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    align-items:start;
+    justify-content:center;
+  }
+  .l2{
+    height: 100%;
+    width: 33%;
+    /* background-color: blue; */
+    float: left;
+  }
+  .l3{
+    height: 100%;
+    width: 33%;
+    /* background-color: green; */
+    float:right;
+  }
+  /* -----------------------child5------------------------------ */
+  .child5{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+  }
+  .f1{
+    height: 100%;
+    width:60%;
+    /* background-color:brown; */
+    float: left;
+  position: relative;
+  }
+  .f11{
+    font-size:32px;
+    position: absolute;
+    top: 20px;
+    left:10%
+  }
+  .f7{
+    height:3px;
+    width:80px;
+    position: absolute;
+    left:10%;
+    top:90px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #feb65c,#df42b9);
+  }
+  .f12{
+    position: absolute;
+    top:90px;
+    left:10%;
+    font-size:25px;
+  }
+  .f13{
+    font-size:15px;
+    position: absolute;
+    top:200px;
+    left:10%
+  }
+  .f14{
+    height:40px;
+    width:140px;
+    font-size:15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    position: absolute;
+    top:300px;
+    left:10%;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #feb65c,#df42b9);
+  }
+
+  .f2{
+    height: 100%;
+    width:40%;
+    /* background-color:yellow; */
+    float:right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .f22{
+    height:90%;
+    width:50%;
+    z-index: 1;
+  }
+  .f23{
+    height:70px;
+    width:400px;
+    background-color: white;
+    /* border: 2px solid pink; */
+    position: absolute;
+    top:77%;
+    z-index: 0;
+    border:3px solid rgb(173, 25, 75);
+  }
+  /* --------------------------------child6---------------------------------------------------
+   */
+   .child6{
+    height: 400px;
+    width: 100%;
+    background-color:white;
+   }
+   .m1{
+    height: 15%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    position: relative;
+   }
+   .m11{
+    font-size:32px;
+    position: absolute;
+    left:10%;
+    top: -30px;
+   }
+   .m12{
+    height:3px;
+    width:80px;
+    position: absolute;
+    left:10%;
+    top:40px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #feb65c,#df42b9);
+  }
+
+   .m2{
+    height:85%;
+    width: 100%;
+    /* background-color:yellow; */
+    position: relative;
+   }
+   .m21{
+    height:90%;
+    width:80%;
+    /* background-color: aqua; */
+    position: absolute;
+    top:5%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   }
+   .m41{
+    height:80%;
+    width:28%;
+    /* background-color: blue; */
+    background-image: url(./our-services2.jpg);
+    background-size: 100% 100%;
+    z-index: 0;
+    
+   }
+   .m411{
+       height:50px;
+       width:76%;
+       background-color: white;
+       z-index: 1;
+       position: relative;
+       top:210px;
+       left:80px;
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .m412{
+    height:55px;
+    width:55px;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left:-15px;
+    top: -3px;
+    background-image: linear-gradient(to right, #feb65c,#df42b9);
+  }
+  .m413{
+    font-size: 20px;
+  }
+  #icon2{
+    font-size:30px;
+    color: white;
+  }
+   .m42{
+    height:80%;
+    width: 28%;
+    /* background-color: violet; */
+    background-image: url(./our-services1.jpg);
+    background-size: 100% 100%;
+   
+   }
+   .m43{
+    height:80%;
+    width:28%;
+    /* background-color: gold; */
+    background-image: url(./our-services3.jpg);
+    background-size: 100% 100%;
+   }
